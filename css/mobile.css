@@ -1,5 +1,5 @@
 .container{
-    height: 180px;
+    height: 200px;
     flex-direction: column;
     padding: 20px 0;
 }
@@ -10,7 +10,7 @@
 .corpo{
     background-image: none;
     background-color: #777;
-    height: 230px;
+    height: 320px;
     
 }
 .corpo h1{
