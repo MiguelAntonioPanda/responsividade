@@ -1,0 +1,47 @@
+.container{
+    height: 146px;
+    flex-direction: column;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+}
+#logo{
+    color: rgb(22, 90, 218);
+}
+nav li{
+    flex-direction: column;
+    border-bottom: 1px solid #444;
+    width: 100%;
+    text-align: center;
+}
+nav:hover{
+    color: #666;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+}
+.article1{
+    margin-bottom: 20px;
+}
+.article2{
+    margin-bottom: 20px;
+}
+.section3{
+    background-image: url(../img/image-6.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
