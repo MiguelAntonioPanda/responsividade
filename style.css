@@ -271,4 +271,9 @@ footer{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
 }
+#div-geral{
+    
+    border-radius: 10px;
+    margin-left: -50px;
+}
 
