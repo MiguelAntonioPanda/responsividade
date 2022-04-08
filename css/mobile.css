@@ -3,11 +3,15 @@
     flex-direction: column;
     padding: 20px 0;
 }
+#logo{
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+}
 .corpo{
-    background-image: url(../img/image-4.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+    background-image: none;
+    background-color: #777;
+    height: 230px;
+    
 }
 .corpo h1{
     margin-top: -110px;
@@ -48,9 +52,7 @@ nav{
     align-items: center;
     width: 50%;
 }
-#logo{
-    color: rgb(22, 90, 218);
-}
+
 nav li{
     flex-direction: column;
     border-bottom: 1px solid #444;
@@ -77,4 +79,11 @@ nav:hover{
     flex-direction: row;
     align-items: center;
     padding: 20px;
+}
+aside h1{
+    text-align: center;
+    font-size: 1.7em;
+}
+aside p{
+    text-align: center;
 }
